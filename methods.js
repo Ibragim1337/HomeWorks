@@ -1,8 +1,8 @@
-//-----------------------------------------1 задание ---------------------------------------
-
 /* console.clear();
 
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const arrCheck = Object.keys(arr);
 
 const randomElement = Math.round(Math.random() * arr.length); // Создаем переменную которая принимает в себя следущее значение
 // для начала прописываем метод math.random и задаем ему длинну нашего массива
@@ -11,4 +11,10 @@ const randomElement = Math.round(Math.random() * arr.length); // Создаем 
 
 const arrRandom = arr[randomElement];
 
-console.log(arrRandom); */
+if (arr.length === 0) {
+  console.log("Массив пустой!")
+} else {
+  console.log(arrRandom);
+} */
+
+//----------------------------------------2 задание -------------------------------------------
