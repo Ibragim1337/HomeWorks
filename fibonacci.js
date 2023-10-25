@@ -14,3 +14,6 @@ function fibonacci(number) {
     return currentNumber;
   }
 }
+console.clear();
+
+console.log(fibonacci(10));
